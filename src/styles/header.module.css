@@ -1,0 +1,65 @@
+.container{
+  padding-top: 150px;
+  justify-content: center;
+  text-align: center;
+}
+
+.formcontainer{
+  padding-top: 20px;
+}
+
+.input{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  color: #FFFF;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.textareawrapper{
+  padding-top: 10px;
+  justify-content: center;
+}
+
+textarea{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  color: #FFFF;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.buttonWrapper{
+  padding-top: 10px;
+}
+
+.inputButton{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #ffff;
+  background-color: #0057FF;
+}
+
+.errormsg {
+  text-align: center;
+  color: red;
+}
+
+.errorfield {
+  border: 1px solid red;
+}
+.fielderrormsg {
+  font-size: 0.8rem;
+  color: red;
+}
