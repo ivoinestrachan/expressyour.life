@@ -57,7 +57,8 @@ textarea{
 }
 
 .errorfield {
-  border: 1px solid red;
+  border: none;
+  border-bottom: 1px solid red;
 }
 .fielderrormsg {
   font-size: 0.8rem;
