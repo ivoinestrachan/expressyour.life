@@ -23,11 +23,11 @@ const Home = () => {
   const handleOnSubmit = async (e) => {
     e.preventDefault();
     if (!user.username || !user.message) setIsError(true);
-    if (!user.message) setFieldError({...fieldError, message: 'Express yourself here ', username: 'You need a username or you can type Anonymous '});
+    if (!user.message) setFieldError({...fieldError, username: 'You need a username or you can type Anonymous ', message: 'Express yourself here '});
   }
 
 
-
+console.log(user)
   
 
   return (
@@ -55,8 +55,8 @@ const Home = () => {
         className={`${styles.textArea} ${
           isError && fieldError ? styles.errorfield : ''
         } `}
-        value={user.email}
-        onChange={(e) => setUser({ ...user, email: e.target.value })}
+        value={user.message}
+        onChange={(e) => setUser({ ...user, message: e.target.value })}
         name="message" />
          <p className={styles.fielderrormsg}>{fieldError.message}</p>
       </div>
